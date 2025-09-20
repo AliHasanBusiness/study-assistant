@@ -1,12 +1,24 @@
-# React + Vite
+#  AI-Powered Personal Study Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based application that helps students and professionals create adaptive study schedules, track progress, and get tutoring support. The goal is to reduce exam stress and make studying more structured, engaging, and efficient.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+- **Adaptive Study Scheduler** – Generates daily plans based on exam dates, subject difficulty, and available study hours.  
+- **Progress Tracking** – Visual progress bars and percentages show how much has been studied vs. remaining.  
+- **Tutor Component** – Provides explanations, quizzes, and motivational prompts (scripted for MVP, AI integration planned).  
+- **User Preferences** – Customize hours per day, study days, and subject details (CRUD).  
+- **Persistent Data** – Saves locally (with plans to support Firebase/Supabase for cross-device syncing).  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+- **Frontend:** React (Vite)  
+- **Styling:** Plain CSS (lightweight, no Tailwind)  
+- **State Management:** React hooks + localStorage  
+- **Backend (Planned):** Serverless functions for AI API proxy + Supabase/Firebase for persistence  
+
+---
+
+##  Project Structure
